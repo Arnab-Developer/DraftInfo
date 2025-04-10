@@ -2,7 +2,7 @@
 
 The basic usage of terraform is to use a configuration language called HCL to describe the infrastructure through code. Basically, I can write whatever infrastructure needed in the HCL as a resource.
 
-```
+```hcl
 resource "aws_vpc" "vpc1" {
   ...
 }
