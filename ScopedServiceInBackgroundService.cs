@@ -1,4 +1,5 @@
-// This is to describe how we can inject scoped service in a background service with a `IServiceScopeFactory`.
+// This is to describe how we can inject scoped service in a background
+// service with a `IServiceScopeFactory`.
 
 using MediatR;
 
