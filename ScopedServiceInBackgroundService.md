@@ -1,4 +1,4 @@
-This is to describe how we can inject scoped service in a background service with a `IServiceScopeFactory`.
+This is to describe how we can inject scoped service in a background service with a `IServiceScopeFactory`. Run and use breakpoint to understand the behaviour.
 
 ```csharp
 using MediatR;
