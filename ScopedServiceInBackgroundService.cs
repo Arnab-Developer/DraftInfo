@@ -1,5 +1,5 @@
-// This is to describe how we can inject scoped service in a background
-// service with a `IServiceScopeFactory`.
+// This code is to show a comparison of injecting a scoped service between an
+// asp.net endpoint and a background service.
 
 using MediatR;
 
