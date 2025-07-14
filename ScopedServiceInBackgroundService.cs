@@ -79,7 +79,8 @@ public class DoWorkNotificationHandler(ITimeService timeService)
     }
 }
 
-public class MyJob(/*IMediator mediator, */IServiceScopeFactory serviceScopeFactory) : BackgroundService
+public class MyJob(/*IMediator mediator, */IServiceScopeFactory serviceScopeFactory) 
+    : BackgroundService
 {
     //private readonly IMediator mediator = mediator;
     private readonly IServiceScopeFactory _serviceScopeFactory = serviceScopeFactory;
