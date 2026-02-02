@@ -35,7 +35,8 @@ class LayerInfo
     }
 }
 
-function GetFunctionInfos([string[]] $functionNames) {
+function GetFunctionInfos([string[]] $functionNames) 
+{
     $functionInfos = [List[FunctionInfo]]::new()
 
     foreach ($functionName in $functionNames)
@@ -60,7 +61,8 @@ function GetFunctionInfos([string[]] $functionNames) {
     return $functionInfos
 }
 
-function DisplayFunctionInfos([List[FunctionInfo]] $functionInfos) {
+function DisplayFunctionInfos([List[FunctionInfo]] $functionInfos) 
+{
     $sortedFunctionInfos = $functionInfos | Sort-Object -Property CodeSize -Descending
 
     foreach ($functionInfo in $sortedFunctionInfos)
