@@ -2,6 +2,11 @@
 // integration event. Database table has been used like a queue for the communication,
 // but other better solution can be used like azure service bus.
 
+// NuGet packages used:
+// - Microsoft.EntityFrameworkCore.SqlServer
+// - Microsoft.EntityFrameworkCore.Tools
+// - MediatR
+
 // ----------
 // Service 1
 // ----------
