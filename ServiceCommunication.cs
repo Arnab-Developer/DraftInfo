@@ -1,4 +1,4 @@
-// This is a demo to show how one service communicate with another service through an
+// This is a demo to show how one service communicates with another service through an
 // integration event. Database table has been used like a queue for the communication,
 // but other better solution can be used like azure service bus.
 
